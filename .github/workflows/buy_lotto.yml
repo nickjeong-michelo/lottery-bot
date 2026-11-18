@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: [ubuntu-latest]
+    runs-on: [ubuntu-24.04] # ubuntu-latest(26.04)에는 setup-python의 3.9 빌드가 없다
     name: Buy lotto
     steps:  
 
